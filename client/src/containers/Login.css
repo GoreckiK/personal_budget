@@ -1,0 +1,35 @@
+.login {
+    background-image: url('../media/login_backgorund.jpg');
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vh;
+    height: 35vh;
+    margin-left: 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.form-group {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-group span {
+    align-self: flex-end;
+}
+
+.form .submit-button {
+    /* width: max-content; */
+    align-self: center;
+    margin-top: 15px;
+}
